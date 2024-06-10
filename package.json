@@ -1,0 +1,20 @@
+{
+  "name": "bookstore-backend",
+  "version": "1.0.0",
+  "description": "carol's final project backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --reporter spec --exit",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongodb-connection-string-url": "^2.6.0"
+  }
+}
